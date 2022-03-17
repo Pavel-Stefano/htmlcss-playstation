@@ -123,10 +123,6 @@ section#jumbotron {
     left: 0;
 }
 
-.box-jumbo {
-    align-items: flex-end;
-}
-
 .banner-returnal {
     width: 200px;
 }
@@ -138,11 +134,10 @@ section#jumbotron {
 .box-jumbo .btn {
     background-color: orangered;
 }
-/* jumbotron */
 
 /* card */
 
-#card img {
+#card img, .box-card img {
     width: 100%;
     border-radius: 20px;
 }
@@ -174,14 +169,74 @@ section#jumbotron {
      width: 100%;
  }
 
- .ps5-box-left .col-6 a{
+ .ps5-box-left a{
      margin-top: 25px;
  }
 
  .ps5-box-left .box-left {
     position: relative;
     top: 43%;
+    padding: 20px 0;
  }
+
+ .card-ps5 img {
+     width: 100%;
+ }
+
+ .card-ps5 .row-card-ps5 {
+     justify-content: space-around;
+ }
+
+ /* game */
+ #game-top {
+    height: 667px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+}
+
+#game-top .container {
+    height: 100%;
+    position: relative;
+}
+
+.row.box-game {
+    position: absolute;
+    bottom: 10vh;
+    left: 0;
+}
+
+.banner-it-takes {
+    width: 200px;
+}
+
+.banner-it-takes img {
+    width: 100%;
+}
+
+.box-game .btn {
+    background-color: orangered;
+}
+
+/* game bottom */
+#game .game-bottom {
+    color: white;
+    background-color: rgb(53, 53, 53);
+}
+
+.game-bottom .container {
+    padding: 50px 0;
+}
+
+.game-bottom h2 {
+    font-size: 35px;
+}
+
+.game-bottom p:first-child {
+    font-size: 25px;
+}
 
 
 @media screen and (max-width: 992px){
