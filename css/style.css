@@ -1,0 +1,191 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.debug {
+    border: 1px solid black;
+}
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float:right;
+}
+
+.btn {
+    background-color: #0a58ca;
+    border-radius: 20px;
+    height: 40px;
+    color: white;
+}
+
+.padding-bottom {
+    padding-bottom: 1.5rem;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+
+/* header */
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* nav-top */
+nav.top {
+    background-color: black;
+    height: 30px;
+}
+
+nav.top .sfondo-logo-image{
+    height: 100%;
+}
+
+nav.top .sfondo-logo-image img{
+    height: 20px;
+    margin-top: 5px;
+}
+
+/* nav bottom */
+header .navbar-light .navbar-nav .nav-link {
+    color: var(--black);
+}
+
+.nav-right {
+    padding: 0 25px;
+}
+
+.nav-right li{
+    display: inline-block;
+    color: var(--black);
+}
+
+.nav-right li a{
+    color: var(--black);
+    text-decoration: none;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: var(--black);
+}
+
+#accedi {
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+#accedi a{
+    background-color: black;
+    color: white;
+}
+
+#search  {
+    padding-left: 10px;
+}
+/* / header */
+
+/* main */
+main {
+    padding-top: 105px;
+}
+
+/* jumbotron */
+section#jumbotron {
+    height: 667px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#jumbotron .container {
+    height: 100%;
+    position: relative;
+}
+
+.row.box-jumbo {
+    position: absolute;
+    bottom: 10vh;
+    left: 0;
+}
+
+.box-jumbo {
+    align-items: flex-end;
+}
+
+.banner-returnal {
+    width: 200px;
+}
+
+.banner-returnal img {
+    width: 100%;
+}
+
+.box-jumbo .btn {
+    background-color: orangered;
+}
+/* jumbotron */
+
+/* card */
+
+#card img {
+    width: 100%;
+    border-radius: 20px;
+}
+ /* playstation-5 */
+ #playstation-5 {
+     margin-top: 150px;
+ }
+
+ #playstation-5 .ps5-top {
+    text-align: center;
+ }
+
+ #playstation-5 .ps5-top a{
+    text-decoration: none;
+    font-weight: bold;
+ }
+
+ #playstation-5 .ps5-top h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+ }
+
+ #playstation-5 span {
+     color: grey;
+     font-size: 18px;
+ }
+
+ #playstation-5 img {
+     width: 100%;
+ }
+
+ .ps5-box-left .col-6 a{
+     margin-top: 25px;
+ }
+
+ .ps5-box-left .box-left {
+    position: relative;
+    top: 43%;
+ }
+
+
+@media screen and (max-width: 992px){
+    .nav-right {
+        display: none;
+    }
+}
