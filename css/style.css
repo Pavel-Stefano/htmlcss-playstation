@@ -27,6 +27,11 @@
     border-radius: 20px;
     height: 40px;
     color: white;
+    font-weight: bold;
+}
+
+.padding {
+    padding: 1.5rem 0;
 }
 
 .padding-bottom {
@@ -273,15 +278,69 @@ section#playstation-plus {
     width: 350px;
 }
 
+#playstation-plus .box-text p {
+    font-weight: bold;
+    color: black;
+}
+
+.box-text .btn {
+    background-color: #d9ddeb;
+    color: #0a58ca;
+}
+
 /* Playstation store */
 #playstation-store .store-sconti {
     text-align: center;
 }
 
+.store-sconti {
+    padding: 50px 0;
+}
 
+.store-sconti .container {
+    padding: 50px 0;
+}
+
+.store-sconti .row img {
+    width: 100%;
+}
+
+
+/* playstation now */
+section#playstation-now {
+    background-color: rgb(190, 186, 186);
+}
+
+#playstation-now .box-text {
+    align-self: center;
+}
+
+#playstation-now img {
+    width: 100%;
+}
+
+#logo-now {
+    width: 350px;
+}
+
+.box-text .btn {
+    background-color: white;
+    color: #0a58ca;
+    
+}
 
 @media screen and (max-width: 992px){
     .nav-right {
         display: none;
     }
+    
+    
 }
+
+@media screen and (max-width: 768px){
+    .box-image {
+        display: none;
+    }
+    
+}
+
