@@ -105,7 +105,7 @@ main {
 
 /* jumbotron */
 section#jumbotron {
-    height: 667px;
+    height: 650px;
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -237,6 +237,47 @@ section#jumbotron {
 .game-bottom p:first-child {
     font-size: 25px;
 }
+
+/* ps4 */
+#ps4 .intro-ps4 {
+    text-align: center;
+    padding: 0 70px;
+}
+
+#ps4 .container img{
+    width: 100%;
+}
+
+#ps4 span {
+    margin: 20px 0;
+    display: block;
+    color: grey;
+    font-size: 20px;
+    padding-right: 45px;
+}
+
+/* playstation plus */
+section#playstation-plus {
+    background-color: rgb(190, 186, 186);
+}
+
+#playstation-plus .box-text {
+    align-self: center;
+}
+
+#playstation-plus img {
+    width: 100%;
+}
+
+#logo-plus {
+    width: 350px;
+}
+
+/* Playstation store */
+#playstation-store .store-sconti {
+    text-align: center;
+}
+
 
 
 @media screen and (max-width: 992px){
