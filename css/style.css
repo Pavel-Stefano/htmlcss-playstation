@@ -30,11 +30,15 @@
     font-weight: bold;
 }
 
-.padding {
+.row img {
+    width: 100% ;
+}
+
+.padding-1 {
     padding: 1.5rem 0;
 }
 
-.padding-bottom {
+.padding-bottom-1 {
     padding-bottom: 1.5rem;
 }
 
@@ -148,7 +152,7 @@ section#jumbotron {
 }
  /* playstation-5 */
  #playstation-5 {
-     margin-top: 150px;
+     margin-top: 100px;
  }
 
  #playstation-5 .ps5-top {
@@ -326,8 +330,47 @@ section#playstation-now {
 .box-text .btn {
     background-color: white;
     color: #0a58ca;
-    
 }
+
+/* social media */
+#social-media{
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* footer */
+footer {
+    background-color: #0a58ca;
+    color: white;
+    padding: 50px 0;
+}
+
+.row-column {
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#global{
+    width: 20px;
+}
+
+.row-column li {
+    list-style-type: none;
+}
+
+footer .row a {
+    color: white;
+}
+footer .row-column a{
+    text-decoration: none;
+}
+
+#sie-logo {
+    width: 200px;
+}
+
+
+
 
 @media screen and (max-width: 992px){
     .nav-right {
