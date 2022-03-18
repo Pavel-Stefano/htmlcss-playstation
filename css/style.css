@@ -76,6 +76,7 @@ header .navbar-light .navbar-nav .nav-link {
 
 .nav-right {
     padding: 0 25px;
+    display: flex;
 }
 
 .nav-right li{
@@ -92,6 +93,10 @@ header .navbar-light .navbar-nav .nav-link {
     color: var(--black);
 }
 
+nav .nav-right {
+    height: 40px;
+}
+
 #accedi {
     padding: 0 20px;
     text-decoration: none;
@@ -105,6 +110,19 @@ header .navbar-light .navbar-nav .nav-link {
 #search  {
     padding-left: 10px;
 }
+
+ul .dropdown li {
+    display: flex;
+}
+
+.dropdown-menu .row {
+    width: 90vw;
+}
+
+.dropdown-menu .row img {
+    width: auto;
+}
+
 /* / header */
 
 /* main */
@@ -372,6 +390,19 @@ footer .row-column a{
 
 
 
+
+
+@media screen and (max-width: 1050px){
+    header nav ul,header .nav-right {
+        padding: 0;
+    }
+    
+    
+}
+
+
+
+
 @media screen and (max-width: 992px){
     .nav-right {
         display: none;
@@ -381,7 +412,8 @@ footer .row-column a{
 }
 
 @media screen and (max-width: 768px){
-    .box-image {
+    #playstation-now .box-image,
+    #playstation-plus .box-image {
         display: none;
     }
     
