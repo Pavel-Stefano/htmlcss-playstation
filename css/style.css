@@ -29,6 +29,12 @@
     color: white;
     font-weight: bold;
 }
+/* animation-btn */
+.btn:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    color: yellow;
+}
 
 .row img {
     width: 100% ;
@@ -57,7 +63,7 @@ header {
 /* nav-top */
 nav.top {
     background-color: black;
-    height: 30px;
+    height: 34px;
 }
 
 nav.top .sfondo-logo-image{
@@ -65,8 +71,9 @@ nav.top .sfondo-logo-image{
 }
 
 nav.top .sfondo-logo-image img{
-    height: 20px;
-    margin-top: 5px;
+    height: 13px;
+    margin-top: 10px;
+    padding-right: 10px;
 }
 
 /* nav bottom */
@@ -119,10 +126,18 @@ ul .dropdown li {
     width: 90vw;
 }
 
+/* prove dropdown */
 .dropdown-menu .row img {
     width: auto;
 }
 
+.dropdown-toggle:active::after{
+    transform: rotate(180deg);
+}
+
+.dropdown {
+    position: static;
+}
 /* / header */
 
 /* main */
@@ -168,6 +183,37 @@ section#jumbotron {
     width: 100%;
     border-radius: 20px;
 }
+#card .box-image {
+    margin-top: 20px;
+    cursor: pointer;
+}
+/* animation-card */
+#card .row .box-image:hover {
+    animation: su-e-giù 0.9s linear;
+}
+@keyframes su-e-giù {
+    0% {
+        position: relative;
+        bottom: 0px;
+    }
+    25% {
+        position: relative;
+        bottom: 10px;
+    }
+    50% {
+        position: relative;
+        bottom: 20px;
+    }
+    75% {
+        position: relative;
+        bottom: 10px;
+    }
+    100% {
+        position: relative;
+        bottom: 0px;
+    }
+}
+
  /* playstation-5 */
  #playstation-5 {
      margin-top: 100px;
