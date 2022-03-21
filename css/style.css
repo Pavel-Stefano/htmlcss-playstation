@@ -123,7 +123,9 @@ ul .dropdown li {
 }
 
 .dropdown-menu .row {
-    width: 90vw;
+    width: 100vw;
+    margin: 0;
+    justify-content: center;
 }
 
 /* prove dropdown */
@@ -131,9 +133,14 @@ ul .dropdown li {
     width: auto;
 }
 
-.dropdown-toggle:active::after{
+.dropdown-toggle:after{
+    display: none;
+}
+
+.dropdown .show i {
     transform: rotate(180deg);
 }
+
 
 .dropdown {
     position: static;
@@ -157,6 +164,10 @@ section#jumbotron {
 #jumbotron .container {
     height: 100%;
     position: relative;
+}
+
+.row {
+    width: 100%;    
 }
 
 .row.box-jumbo {
@@ -236,10 +247,6 @@ section#jumbotron {
  #playstation-5 span {
      color: grey;
      font-size: 18px;
- }
-
- #playstation-5 img {
-     width: 100%;
  }
 
  .ps5-box-left a{
