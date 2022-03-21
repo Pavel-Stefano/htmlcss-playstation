@@ -266,6 +266,12 @@ section#jumbotron {
      justify-content: space-around;
  }
 
+ .row-card-ps5 img:hover{
+     border-bottom: 3px solid #0a58ca;
+ }
+
+
+
  /* game */
  #game-top {
     height: 667px;
@@ -454,7 +460,9 @@ footer .row-column a{
     .nav-right {
         display: none;
     }
-    
+    .card-ps5 .row-card-ps5 {
+        justify-content: flex-start;
+    }
     
 }
 
@@ -469,6 +477,10 @@ footer .row-column a{
 @media screen and (max-width: 575px){
     .row {
         padding-left: 15px;
+    }
+    .ps5-box-left .box-left {
+        position: relative;
+        top: 25%;
     }
 }
 
