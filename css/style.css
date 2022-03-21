@@ -141,7 +141,6 @@ ul .dropdown li {
     transform: rotate(180deg);
 }
 
-
 .dropdown {
     position: static;
 }
@@ -449,12 +448,7 @@ footer .row-column a{
     header nav ul,header .nav-right {
         padding: 0;
     }
-    
-    
 }
-
-
-
 
 @media screen and (max-width: 992px){
     .nav-right {
@@ -470,5 +464,11 @@ footer .row-column a{
         display: none;
     }
     
+}
+
+@media screen and (max-width: 575px){
+    .row {
+        padding-left: 15px;
+    }
 }
 
